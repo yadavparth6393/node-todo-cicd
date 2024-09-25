@@ -4,7 +4,7 @@ FROM node:12.2.0-alpine
 #Working Directry
 WORKDIR /node
 
-#Copy the Code
+#Copy the Code from local
 COPY . .
 
 #Install the dependecies
